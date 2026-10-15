@@ -148,6 +148,11 @@ export default function App() {
               <span className="status-dot" />
               PORTFOLIO & CURRICULUM VITAE
             </div>
+            <img
+      src="/portfolioicon.png"
+      alt="My profile photo"
+      className="profile-photo"
+    />
 
             <p className="eyebrow">HELLO, I'M</p>
             <h1>{data.name || "Your Name"}</h1>

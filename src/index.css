@@ -160,7 +160,7 @@ button {
 .hero h1 {
   margin: 0;
   color: var(--dark);
-  font-size: clamp(38px, 5.5vw, 66px);
+  font-size: clamp(38px, 5.5vw, 6px);
   line-height: 1.08;
   letter-spacing: -2.5px;
   overflow-wrap: anywhere;
@@ -606,6 +606,17 @@ button {
   flex-wrap: wrap;
   color: var(--muted);
   font-size: 12px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .footer .logo {
